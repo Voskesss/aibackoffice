@@ -7,7 +7,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <span className="bg-gradient-to-r from-primary-purple to-primary-pink bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">
-              Diensten
+              Oplossingen
             </span>
             <h1 className="text-5xl md:text-7xl font-black text-white mt-4 mb-6">
               Computers die <span className="bg-gradient-to-r from-primary-purple via-fuchsia-500 to-primary-pink bg-clip-text text-transparent">jouw werk</span> doen

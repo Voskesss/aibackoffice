@@ -21,7 +21,7 @@ export default function Navbar() {
               Home
             </Link>
             <Link to="/diensten" className="text-gray-300 hover:text-white transition-colors font-medium">
-              Diensten
+              Oplossingen
             </Link>
             <Link to="/cases" className="text-gray-300 hover:text-white transition-colors font-medium">
               Cases
@@ -80,7 +80,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="block text-gray-300 hover:text-white transition-colors font-medium py-2"
             >
-              Diensten
+              Oplossingen
             </Link>
             <Link 
               to="/cases" 
