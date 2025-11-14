@@ -63,7 +63,7 @@ export default function Home() {
             </div>
 
             {/* Right - Personal photo with layers */}
-            <div className="relative hidden lg:block">
+            <div className="relative mt-12 lg:mt-0">
               <div className="relative w-full flex items-center justify-center">
                 {/* Layer 1: Background wave image */}
                 <div className="absolute inset-0 opacity-20">
@@ -86,8 +86,8 @@ export default function Home() {
                     {/* Rotating gradient border effect */}
                     <div className="absolute -inset-2 bg-gradient-to-r from-primary-purple via-fuchsia-500 to-primary-pink rounded-full opacity-75 group-hover:opacity-100 blur-lg transition-all duration-300 animate-pulse"></div>
                     
-                    {/* Main photo */}
-                    <div className="relative w-96 h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl transform group-hover:scale-105 group-hover:rotate-2 transition-all duration-500">
+                    {/* Main photo - responsive size */}
+                    <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl transform group-hover:scale-105 group-hover:rotate-2 transition-all duration-500">
                       <img 
                         src="/images/jos.jpeg" 
                         alt="Jos - AI Backoffice" 
