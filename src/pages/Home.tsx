@@ -134,65 +134,115 @@ export default function Home() {
 
       </section>
 
-      {/* Services - Bento Grid Style */}
+      {/* Onze aanpak - 2-step approach */}
       <section className="py-24 md:py-32 bg-gradient-to-br from-purple-200 via-fuchsia-100 to-pink-200 relative overflow-hidden">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary-purple/10 via-primary-pink/10 to-fuchsia-500/10"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <span className="bg-gradient-to-r from-primary-purple to-primary-pink bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">Wat we voor je doen</span>
-            <h2 className="text-4xl md:text-6xl font-black mt-4 mb-6">Zo helpen we jou</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Van kleine verbeteringen tot je hele administratie automatisch
+            <span className="bg-gradient-to-r from-primary-purple to-primary-pink bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">Onze aanpak</span>
+            <h2 className="text-4xl md:text-6xl font-black mt-4 mb-6">Zo pakken we het aan</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              We gaan samen kijken waar AI jou kan helpen en ondersteunen
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {/* Card 1 */}
-            <div className="group relative bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-3xl border-2 border-amber-100 hover:border-primary-orange transition-all hover:scale-105 hover:shadow-2xl">
-              <div className="absolute top-4 right-4 w-20 h-20 bg-gradient-to-br from-primary-orange to-amber-300 rounded-2xl opacity-10"></div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* Stap 1: Samen ontdekken */}
+            <div className="group relative bg-white p-10 rounded-3xl border-2 border-purple-100 hover:border-primary-purple transition-all hover:scale-105 hover:shadow-2xl">
+              <div className="absolute top-6 right-6 w-24 h-24 bg-gradient-to-br from-primary-purple to-fuchsia-400 rounded-2xl opacity-10"></div>
               <div className="relative">
-                <div className="w-14 h-14 mb-4 bg-gradient-to-br from-primary-orange to-amber-400 rounded-2xl flex items-center justify-center shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6 bg-gradient-to-br from-primary-purple via-fuchsia-500 to-primary-pink rounded-2xl shadow-lg">
+                  <svg className="w-9 h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-3">Snelle verbeteringen</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Binnen een week zien we al verschil. Bijvoorbeeld: emails sorteren zichzelf, offertes schrijven gaat 10x sneller.
+
+                <div className="inline-block px-4 py-1 mb-4 bg-primary-purple/10 rounded-full">
+                  <span className="text-primary-purple font-bold text-sm">Stap 1</span>
+                </div>
+
+                <h3 className="text-3xl font-black mb-4">Samen ontdekken</h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  We gaan samen kijken waar AI jou kan helpen en ondersteunen. Met AI kun je alles dat met data en processen te maken heeft verbeteren:
                 </p>
+
+                <ul className="space-y-3">
+                  {[
+                    'Offertes maken',
+                    'Interne emails schrijven',
+                    'Aanbestedingen beoordelen',
+                    'Rapporten genereren',
+                    'Documenten analyseren',
+                    'Data verwerken'
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <svg className="w-6 h-6 text-primary-purple flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                      <span className="text-gray-800 font-medium">{item}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
 
-            {/* Card 2 */}
-            <div className="group relative bg-gradient-to-br from-purple-50 via-fuchsia-50 to-purple-50 p-8 rounded-3xl border-2 border-purple-100 hover:border-primary-purple transition-all hover:scale-105 hover:shadow-2xl">
-              <div className="absolute top-4 right-4 w-20 h-20 bg-gradient-to-br from-primary-purple to-fuchsia-400 rounded-2xl opacity-10"></div>
+            {/* Stap 2: De juiste methode kiezen */}
+            <div className="group relative bg-white p-10 rounded-3xl border-2 border-pink-100 hover:border-primary-pink transition-all hover:scale-105 hover:shadow-2xl">
+              <div className="absolute top-6 right-6 w-24 h-24 bg-gradient-to-br from-primary-pink to-rose-300 rounded-2xl opacity-10"></div>
               <div className="relative">
-                <div className="w-14 h-14 mb-4 bg-gradient-to-br from-primary-purple via-fuchsia-500 to-primary-pink rounded-2xl flex items-center justify-center shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6 bg-gradient-to-br from-primary-pink to-rose-400 rounded-2xl shadow-lg">
+                  <svg className="w-9 h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-3">Hele processen automatisch</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Factuur komt binnen? Wordt vanzelf verwerkt. Klant stuurt vraag? Krijgt direct antwoord. Echt alles op de piloot.
-                </p>
-              </div>
-            </div>
 
-            {/* Card 3 */}
-            <div className="group relative bg-gradient-to-br from-pink-50 via-rose-50 to-pink-50 p-8 rounded-3xl border-2 border-pink-100 hover:border-primary-pink transition-all hover:scale-105 hover:shadow-2xl">
-              <div className="absolute top-4 right-4 w-20 h-20 bg-gradient-to-br from-primary-pink to-rose-300 rounded-2xl opacity-10"></div>
-              <div className="relative">
-                <div className="w-14 h-14 mb-4 bg-gradient-to-br from-primary-pink to-rose-400 rounded-2xl flex items-center justify-center shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
+                <div className="inline-block px-4 py-1 mb-4 bg-primary-pink/10 rounded-full">
+                  <span className="text-primary-pink font-bold text-sm">Stap 2</span>
                 </div>
-                <h3 className="text-2xl font-bold mb-3">Support</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Doorlopende optimalisatie en begeleiding. We blijven je team ondersteunen.
+
+                <h3 className="text-3xl font-black mb-4">De juiste methode</h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  Daarna bepalen we samen welke aanpak het beste bij jou past:
                 </p>
+
+                <div className="space-y-6">
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center">
+                      <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Bestaande applicaties</h4>
+                      <p className="text-gray-600 text-sm">ChatGPT, Claude, Gemini</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-xl flex items-center justify-center">
+                      <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Workflow apps</h4>
+                      <p className="text-gray-600 text-sm">n8n, Make, Zapier, OpenAI Agents</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-purple-400 to-fuchsia-500 rounded-xl flex items-center justify-center">
+                      <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Selfmade micro-apps</h4>
+                      <p className="text-gray-600 text-sm">Custom tools precies op maat</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
