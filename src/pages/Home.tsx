@@ -158,9 +158,16 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold mb-3">Snelle verbeteringen</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Binnen een week zien we al verschil. Bijvoorbeeld: emails sorteren zichzelf, offertes schrijven gaat 10x sneller.
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Je gebruikt dingen die al bestaan, maar dan slimmer. Denk aan ChatGPT, maar dan speciaal voor jou.
                 </p>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong className="text-gray-800">Hoe werkt het?</strong></p>
+                  <p>→ Wij leren de computer jouw manier van werken</p>
+                  <p>→ Je geeft opdrachten in gewone taal</p>
+                  <p>→ Computer doet het werk, jij checkt het</p>
+                  <p className="text-primary-orange font-semibold mt-3">Klaar in 1-2 weken</p>
+                </div>
               </div>
             </div>
 
@@ -174,9 +181,16 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold mb-3">Hele processen automatisch</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Factuur komt binnen? Wordt vanzelf verwerkt. Klant stuurt vraag? Krijgt direct antwoord. Echt alles op de piloot.
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Van begin tot eind zonder dat jij iets hoeft te doen. De computer let op wat er binnenkomt en regelt het.
                 </p>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong className="text-gray-800">Hoe werkt het?</strong></p>
+                  <p>→ Email/factuur komt binnen → Computer ziet het</p>
+                  <p>→ Computer leest, begrijpt en verwerkt</p>
+                  <p>→ Zet in het juiste systeem, stuurt reactie</p>
+                  <p className="text-primary-purple font-semibold mt-3">24/7 actief, nooit ziek</p>
+                </div>
               </div>
             </div>
 
@@ -189,10 +203,17 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-3">Support</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Doorlopende optimalisatie en begeleiding. We blijven je team ondersteunen.
+                <h3 className="text-2xl font-bold mb-3">Persoonlijke hulp</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Eenmalig instellen is niet genoeg. We bouwen iets speciaal voor jou, precies wat jij nodig hebt.
                 </p>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong className="text-gray-800">Hoe werkt het?</strong></p>
+                  <p>→ We luisteren naar wat jij nodig hebt</p>
+                  <p>→ Maken een tool/assistent op maat</p>
+                  <p>→ Blijven het verbeteren als je situatie verandert</p>
+                  <p className="text-primary-pink font-semibold mt-3">Groeit mee met je bedrijf</p>
+                </div>
               </div>
             </div>
           </div>
