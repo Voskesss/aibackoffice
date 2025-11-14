@@ -10,8 +10,11 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 
 function App() {
+  // Set base path for GitHub Pages deployment
+  const basename = import.meta.env.MODE === 'production' ? '/aibackoffice' : '';
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow">
