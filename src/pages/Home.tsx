@@ -1,3 +1,7 @@
+// Import images so Vite handles the paths correctly for GitHub Pages
+import josPhoto from '/public/images/jos.jpeg';
+import golfBackground from '/public/images/golf.jpg';
+
 export default function Home() {
   return (
     <div className="pt-16">
@@ -68,7 +72,7 @@ export default function Home() {
                 {/* Layer 1: Background wave image */}
                 <div className="absolute inset-0 opacity-20">
                   <img 
-                    src="/images/golf.jpg" 
+                    src={golfBackground} 
                     alt="Background waves" 
                     className="w-full h-full object-cover rounded-full blur-sm"
                   />
@@ -89,7 +93,7 @@ export default function Home() {
                     {/* Main photo - responsive size */}
                     <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl transform group-hover:scale-105 group-hover:rotate-2 transition-all duration-500">
                       <img 
-                        src="/images/jos.jpeg" 
+                        src={josPhoto} 
                         alt="Jos - AI Backoffice" 
                         className="w-full h-full object-cover"
                       />
