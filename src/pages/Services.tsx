@@ -10,11 +10,11 @@ export default function Services() {
               Diensten
             </span>
             <h1 className="text-5xl md:text-7xl font-black text-white mt-4 mb-6">
-              Van ChatGPT tot <span className="bg-gradient-to-r from-primary-purple via-fuchsia-500 to-primary-pink bg-clip-text text-transparent">custom AI</span>
+              Computers die <span className="bg-gradient-to-r from-primary-purple via-fuchsia-500 to-primary-pink bg-clip-text text-transparent">jouw werk</span> doen
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              We werken met de beste AI-tools én bouwen oplossingen op maat. 
-              Van slimme chatbots tot complete automatiseringen.
+              We zorgen dat saai werk verdwijnt. Facturen verwerken? Emails beantwoorden? Rapporten schrijven? 
+              Gebeurt voortaan vanzelf.
             </p>
           </div>
         </div>
@@ -26,13 +26,13 @@ export default function Services() {
           {/* Intro */}
           <div className="mb-12">
             <span className="bg-gradient-to-r from-primary-purple to-primary-pink bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">
-              A. Bestaande Chatbots
+              1. Slimme chat-assistenten
             </span>
             <h2 className="text-4xl md:text-6xl font-black mt-4 mb-6">
-              ChatGPT, Claude & Co op maat
+              Zoals ChatGPT, maar dan voor jouw bedrijf
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mb-6">
-              Je kent ChatGPT, Claude, Gemini, Le Chat en Copilot. Wij maken ze specifiek voor jouw bedrijf.
+              Misschien heb je wel eens met ChatGPT gewerkt. Wij maken zo'n assistent speciaal voor jou, met jouw informatie erin.
             </p>
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 bg-white/80 rounded-full text-sm font-semibold border-2 border-purple-200">ChatGPT</span>
@@ -116,13 +116,13 @@ export default function Services() {
           {/* Intro */}
           <div className="mb-12">
             <span className="bg-gradient-to-r from-primary-purple to-primary-pink bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">
-              B. Workflow-software / AI Agents
+              2. Alles op automatische piloot
             </span>
             <h2 className="text-4xl md:text-6xl font-black text-white mt-4 mb-6">
-              Automatiseer complete processen
+              Van begin tot eind automatisch
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mb-6">
-              Met n8n, Make, Zapier en OpenAI Agents bouwen we slimme workflows die 24/7 werken.
+              Hele processen die nu handmatig gaan, draaien straks vanzelf. 24 uur per dag, 7 dagen per week.
             </p>
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 bg-gray-700/80 rounded-full text-sm font-semibold border-2 border-purple-500/30 text-white">n8n</span>
@@ -198,13 +198,13 @@ export default function Services() {
           {/* Intro */}
           <div className="mb-12">
             <span className="bg-gradient-to-r from-fuchsia-500 to-primary-pink bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">
-              C. Micro-applicaties
+              3. Handige hulpjes op maat
             </span>
             <h2 className="text-4xl md:text-6xl font-black mt-4 mb-6">
-              Custom tools op maat
+              Tools die precies doen wat jij nodig hebt
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl">
-              Kleine maar krachtige webappjes die precies doen wat jij nodig hebt - zonder dure pakketten.
+              Soms bestaat er gewoon geen programma voor wat je nodig hebt. Dan maken we het zelf. Klein, simpel, werkt perfect.
             </p>
           </div>
 
@@ -288,13 +288,13 @@ export default function Services() {
           {/* Intro */}
           <div className="mb-12">
             <span className="bg-gradient-to-r from-primary-orange to-amber-400 bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">
-              D. AI Bridges
+              4. Systemen laten samenwerken
             </span>
             <h2 className="text-4xl md:text-6xl font-black text-white mt-4 mb-6">
-              Verbind systemen met AI
+              Data uit het ene programma, in het andere
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl">
-              Koppelingen tussen processen die nu "los" staan. AI als slimme verbindingslaag.
+              Je werkt met Excel én PowerPoint? Met een CRM én email? We zorgen dat ze met elkaar praten, automatisch.
             </p>
           </div>
 

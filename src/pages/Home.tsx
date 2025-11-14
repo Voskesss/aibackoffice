@@ -20,19 +20,19 @@ export default function Home() {
             <div className="text-white space-y-8">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 backdrop-blur-xl border border-white/10">
                 <div className="w-2 h-2 rounded-full bg-primary-purple animate-pulse"></div>
-                <span className="text-sm font-medium">Powered by AI</span>
+                <span className="text-sm font-medium">Computers die je werk doen</span>
               </div>
               
               <h1 className="text-6xl md:text-8xl font-black leading-none tracking-tight">
-                Slimmer<br />
+                Minder werk,<br />
                 <span className="bg-gradient-to-r from-primary-purple via-fuchsia-500 to-primary-pink bg-clip-text text-transparent">
-                  werken
+                  meer tijd
                 </span><br />
-                met Ai
+                voor jou
               </h1>
               
               <p className="text-xl text-gray-300 max-w-lg leading-relaxed">
-                Transformeer jouw backoffice met praktische AI-oplossingen die écht werken. Geen hype, gewoon resultaat.
+                Stel je voor: vervelende taken verdwijnen. Emails worden vanzelf beantwoord. Rapporten schrijven zichzelf. Dat kan écht.
               </p>
               
               <div className="flex flex-wrap gap-4">
@@ -136,10 +136,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-primary-purple/10 via-primary-pink/10 to-fuchsia-500/10"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <span className="bg-gradient-to-r from-primary-purple to-primary-pink bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">Diensten</span>
-            <h2 className="text-4xl md:text-6xl font-black mt-4 mb-6">Wat wij voor je doen</h2>
+            <span className="bg-gradient-to-r from-primary-purple to-primary-pink bg-clip-text text-transparent font-semibold text-sm uppercase tracking-wider">Wat we voor je doen</span>
+            <h2 className="text-4xl md:text-6xl font-black mt-4 mb-6">Zo helpen we jou</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Van quick wins tot complete AI-transformatie
+              Van kleine verbeteringen tot je hele administratie automatisch
             </p>
           </div>
 
@@ -153,9 +153,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-3">Quick Wins</h3>
+                <h3 className="text-2xl font-bold mb-3">Snelle verbeteringen</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Directe impact met slimme AI-tools. Van e-mailassistenten tot rapportage-automatie.
+                  Binnen een week zien we al verschil. Bijvoorbeeld: emails sorteren zichzelf, offertes schrijven gaat 10x sneller.
                 </p>
               </div>
             </div>
@@ -169,9 +169,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-3">Implementatie</h3>
+                <h3 className="text-2xl font-bold mb-3">Hele processen automatisch</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Volledige AI-workflows met Make, n8n en OpenAI Agents. Van concept tot productie.
+                  Factuur komt binnen? Wordt vanzelf verwerkt. Klant stuurt vraag? Krijgt direct antwoord. Echt alles op de piloot.
                 </p>
               </div>
             </div>
